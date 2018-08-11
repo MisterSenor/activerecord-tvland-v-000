@@ -7,6 +7,7 @@ class Character < ActiveRecord::Base
   end
 
   def build_show(name)
+    binding.pry
     name = self.show
   end
 
