@@ -6,7 +6,7 @@ class Character < ActiveRecord::Base
     "#{self.name} always says: #{self.catchphrase}"
   end
 
-  def build_show(name:)
+  def build_show(name:nil)
     name = self.show
   end
 
