@@ -7,7 +7,7 @@ class Character < ActiveRecord::Base
   end
 
   def build_show(name)
-    name = self.show.name
+    name = self.show
   end
 
 
